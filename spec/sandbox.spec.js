@@ -1,16 +1,19 @@
 import test from "ava";
-import puppeteer from "puppeteer";
+import { chromium } from "playwright";
 
 let page;
 let browser;
 
 test.before(async () => {
   browser = process.env.GITHUB_ACTIONS
-    ? await puppeteer.launch()
-    : await puppeteer.launch({ headless: false });
+    ? await chromium.launch()
+    : await chromium.launch({ headless: false });
   page = await browser.newPage();
+
   await page
-    .goto("https://e2e-boilerplates.github.io/sandbox/", { waitUntil: "networkidle0" })
+    .goto("https://e2e-boilerplates.github.io/sandbox/", {
+      waitUntil: "networkidle0"
+    })
     .catch(() => {});
 });
 

@@ -1,13 +1,13 @@
 {
-  "name": "puppeteer-es6modules-ava",
+  "name": "playwright-es6-modules-ava",
   "version": "1.0.0",
-  "description": "Puppeteer end-to-end test automation boilerplate project. Using ES6 modules and AVA.",
+  "description": "playwright end-to-end test automation boilerplate project, using ES6 modules and AVA.",
   "scripts": {
     "test": "ava",
     "lint": "npx eslint --ext .js ./ --fix"
   },
   "keywords": [
-    "puppeteer",
+    "playwright",
     "es6 modules",
     "ava",
     "boilerplate",
@@ -22,7 +22,7 @@
     "eslint-config-prettier": "6.10.0",
     "eslint-plugin-import": "2.20.1",
     "eslint-plugin-prettier": "3.1.2",
-    "prettier": "1.19.1",
-    "puppeteer": "2.1.1"
+    "playwright": "^0.11.1",
+    "prettier": "1.19.1"
   }
 }
