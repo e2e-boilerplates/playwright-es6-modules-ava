@@ -1,1 +1,31 @@
-{"author":"","description":"playwright end-to-end test automation boilerplate project, using ES6 modules and AVA.","devDependencies":{"ava":"2.4.0","eslint":"6.8.0","eslint-config-airbnb-base":"14.0.0","eslint-config-prettier":"6.10.0","eslint-plugin-import":"2.20.1","eslint-plugin-json":"2.1.0","eslint-plugin-prettier":"3.1.2","playwright":"0.11.1","prettier":"1.19.1"},"keywords":["ava","es modules","playwright"],"license":"MIT","name":"playwright-es6-modules-ava","repository":{"type":"git","url":"git+https://github.com/e2e-boilerplates/playwright-es6-modules-ava.git"},"scripts":{"lint":"npx eslint --ext .js ./ --fix","test":"ava"},"version":"1.0.0"}
+{
+  "author": "",
+  "description": "playwright end-to-end test automation boilerplate project, using ES6 modules and AVA.",
+  "devDependencies": {
+    "ava": "2.4.0",
+    "eslint": "6.8.0",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-config-prettier": "6.10.0",
+    "eslint-plugin-import": "2.20.1",
+    "eslint-plugin-json": "2.1.0",
+    "eslint-plugin-prettier": "3.1.2",
+    "playwright": "0.11.1",
+    "prettier": "1.19.1"
+  },
+  "keywords": [
+    "ava",
+    "es",
+    "playwright"
+  ],
+  "license": "MIT",
+  "name": "playwright-es-modules-ava",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e2e-boilerplates/playwright-es-modules-ava.git"
+  },
+  "scripts": {
+    "lint": "npx eslint --ext .js ./ --fix",
+    "test": "ava"
+  },
+  "version": "1.0.0"
+}
