@@ -1,4 +1,4 @@
-[![GitHub Actions status | e2e-boilerplate/playwright-es-modules-ava](https://github.com/e2e-boilerplate/playwright-es-modules-ava/workflows/playwright-es-modules-ava/badge.svg)](https://github.com/e2e-boilerplate/playwright-es-modules-ava/actions?workflow=playwright-es-modules-ava)
+[![GitHub Actions status | e2e-boilerplate/playwright-es-modules-ava](https://github.com/e2e-boilerplate/playwright-es-modules-ava/workflows/playwright-es-modules-ava/badge.svg)](https://github.com/e2e-boilerplate/playwright-es-modules-ava/actions?workflow=playwright-es-modules-ava) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
     
 # Playwright Boilerplate
     
