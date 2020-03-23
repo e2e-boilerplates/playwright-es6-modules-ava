@@ -8,7 +8,7 @@
     "chromedriver": "80.0.1",
     "playwright": "0.11.1"
   },
-  "description": "Playwright end-to-end test automation boilerplate. using ES Modules and AVA.",
+  "description": "Playwright end-to-end test automation boilerplate. Using ES Modules and AVA.",
   "devDependencies": {
     "eslint": "6.8.0",
     "eslint-config-airbnb-base": "14.1.0",
@@ -16,7 +16,7 @@
     "eslint-plugin-import": "2.20.1",
     "eslint-plugin-prettier": "3.1.2",
     "husky": "4.2.3",
-    "prettier": "2.0.1",
+    "prettier": "1.19.1",
     "pretty-quick": "2.0.1"
   },
   "homepage": "https://github.com/e2e-boilerplate/playwright-es-modules-ava#readme",
