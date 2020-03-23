@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
-=======
-  "author": "Girma Nigusse <xgirma@gmail.com>",
->>>>>>> 3ec41d9050a115688b5bdc7ab9613afa23e9a3e2
   "bugs": {
     "url": "https://github.com/e2e-boilerplate/playwright-es-modules-ava/issues"
   },
