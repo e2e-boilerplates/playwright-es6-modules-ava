@@ -1,15 +1,25 @@
 {
   "author": "Girma Nigusse <xgirma@gmail.com>",
+  "ava": {
+    "babel": true
+  },
   "bugs": {
-    "url": "https://github.com/e2e-boilerplate/playwright-es-modules-ava/issues"
+    "url": "https://github.com/e2e-boilerplate/playwright-es-modules-babel-ava/issues"
   },
   "dependencies": {
     "ava": "3.5.1",
     "chromedriver": "80.0.1",
     "playwright": "0.12.1"
   },
-  "description": "Playwright end-to-end test automation boilerplate. Using ES Modules and AVA.",
+  "description": "Playwright end-to-end test automation boilerplate. Using ES Modules, Babel and AVA.",
   "devDependencies": {
+    "@ava/babel": "1.0.1",
+    "@babel/cli": "7.8.4",
+    "@babel/core": "7.9.0",
+    "@babel/plugin-transform-runtime": "7.9.0",
+    "@babel/preset-env": "7.9.0",
+    "@babel/register": "7.9.0",
+    "@babel/runtime": "7.9.2",
     "eslint": "6.8.0",
     "eslint-config-airbnb-base": "14.1.0",
     "eslint-config-prettier": "6.10.1",
@@ -19,9 +29,10 @@
     "prettier": "2.0.2",
     "pretty-quick": "2.0.1"
   },
-  "homepage": "https://github.com/e2e-boilerplate/playwright-es-modules-ava#readme",
+  "homepage": "https://github.com/e2e-boilerplate/playwright-es-modules-babel-ava#readme",
   "keywords": [
     "ava",
+    "babel",
     "boilerplate",
     "e2e",
     "e2e tests",
@@ -30,10 +41,10 @@
     "playwright"
   ],
   "license": "MIT",
-  "name": "playwright-es-modules-ava",
+  "name": "playwright-es-modules-babel-ava",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/e2e-boilerplate/playwright-es-modules-ava.git"
+    "url": "git+https://github.com/e2e-boilerplate/playwright-es-modules-babel-ava.git"
   },
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",

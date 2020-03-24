@@ -1,4 +1,4 @@
-import * as test from "ava";
+import test from "ava";
 import { chromium } from "playwright";
 
 let page;
