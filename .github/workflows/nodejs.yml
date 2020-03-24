@@ -1,4 +1,4 @@
-name: playwright-es-modules-ava
+name: playwright-es-modules-babel-ava
 'on':
   push: null
   schedule:
