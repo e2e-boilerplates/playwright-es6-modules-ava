@@ -12,7 +12,7 @@ test.before(async () => {
 
   await page
     .goto("https://e2e-boilerplate.github.io/sandbox/", {
-      waitUntil: "networkidle0"
+      waitUntil: "networkidle0",
     })
     .catch(() => {});
 });
@@ -23,9 +23,9 @@ test.after(() => {
   }
 });
 
-test("should be on the sandbox", async t => {
+test("should be on the sandbox", async (t) => {
   await page.waitFor("h1");
-  const title = await page.$eval("h1", el => el.textContent);
+  const title = await page.$eval("h1", (el) => el.textContent);
 
   t.is(await page.title(), "Sandbox");
   t.is(title, "Sandbox");
