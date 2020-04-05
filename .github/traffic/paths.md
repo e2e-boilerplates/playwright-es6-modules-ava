@@ -1,0 +1,12 @@
+| referrer                                                                                   | count | uniques |
+| :----------------------------------------------------------------------------------------- | :---- | :------ |
+| /e2e-boilerplate/playwright-es-modules-babel-ava                                           | 6     | 2       |
+| /e2e-boilerplate/playwright-es-modules-babel-ava/actions                                   | 4     | 2       |
+| /e2e-boilerplate/playwright-es-modules-ava                                                 | 4     | 1       |
+| /e2e-boilerplate/playwright-es-modules-ava/actions                                         | 3     | 1       |
+| /e2e-boilerplate/playwright-es-modules-ava/commits/master                                  | 2     | 1       |
+| /e2e-boilerplate/playwright-es-modules-babel-ava/blob/master/.github/workflows/nodejs.yml  | 2     | 1       |
+| /e2e-boilerplate/playwright-es-modules-ava/actions/runs/61951877                           | 1     | 1       |
+| /e2e-boilerplate/playwright-es-modules-ava/actions/runs/62548439                           | 1     | 1       |
+| /e2e-boilerplate/playwright-es-modules-ava/commit/9df86305c8ae5493e57dbcba4a008ea85da252e3 | 1     | 1       |
+| /e2e-boilerplate/playwright-es-modules-ava/commit/bdbdbcf7e7cf5693b48da88d9c7b9b968daaf364 | 1     | 1       |
