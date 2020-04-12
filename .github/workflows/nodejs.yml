@@ -2,7 +2,7 @@ name: playwright-es-modules-babel-ava
 'on':
   push: null
   schedule:
-    - cron: 59 8 1-31/2 * *
+    - cron: 59 0 1-31/2 * *
 jobs:
   build:
     runs-on: ubuntu-latest
