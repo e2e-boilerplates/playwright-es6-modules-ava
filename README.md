@@ -9,3 +9,6 @@ Playwright end-to-end test automation boilerplate, Using ES Modules, Babel and A
     	2. cd playwright-es-modules-babel-ava
     	3. npm install
     	4. npm run test
+        
+    
+For more boilerplate click [here](https://github.com/e2e-boilerplate/utils/blob/master/docs/implemented.md)
