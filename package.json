@@ -9,7 +9,7 @@
   "dependencies": {
     "ava": "3.7.1",
     "chromedriver": "80.0.2",
-    "playwright": "0.14.0"
+    "playwright": "0.15.0"
   },
   "description": "Playwright end-to-end test automation boilerplate. Using ES Modules, Babel and AVA.",
   "devDependencies": {
