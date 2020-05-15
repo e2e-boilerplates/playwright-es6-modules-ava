@@ -24,7 +24,7 @@ test.after(() => {
 });
 
 test("should be on the sandbox", async (t) => {
-  await page.waitFor("h1");
+  await page.waitForSelector("h1");
   const title = await page.$eval("h1", (el) => el.textContent);
 
   t.is(await page.title(), "Sandbox");
