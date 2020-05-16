@@ -39,13 +39,14 @@
   "keywords": [
     "ava",
     "babel",
-    "boilerplate",
+    "es modules",
+    "playwright",
     "e2e",
     "e2e tests",
-    "es modules",
-    "example",
+    "boilerplate",
     "integration test",
-    "playwright"
+    "test automation",
+    "javascript"
   ],
   "license": "MIT",
   "lint-staged": {
